@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+  --1:#ff7800;
+  --2:#130f40;
+  --3:#2b2525;
+  --a:0 0.5rem 1rem rgba(0,0,0,0.1);
+  --b:0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  transition: all .3s linear;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 80%;
+  overflow-x: hiddden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+
+body {
+  background-color: #eee;
+}
+
+.header  {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 30px 5%;
+  background-color: #fff;
+  box-shadow: var(--a);
+
+
+}
+
+.header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--2);
+  text-decoration: none;
+}
+
+.header .logo i {
+  color: var(--1);
+}
+
+.header .navbar a {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: var(--2);
+  text-decoration: none;
+}
+
+.header .navbar a:hover {
+  color: var(--1);
+}
+
+#menu {
+  display: none;
+}
+
+.header .icons div {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  color: var(--2);
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 0.3rem;
+}
+
+.header .icons div:hover {
+  background-color: var(--1);
+}
+
+.header .search-form {
+  position: absolute;
+  top: 110%;
+  right: 2rem;
+  height: 4rem;
+  width: 50rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  overflow:  hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: var(--a);
+  display: none;
+}
+
+.header .search-form input {
+  width: 100%;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  color: var(--2);
+  text-transform: none;
+  height: 100%;
+  background-color: none;
+}
+
+.header .search-form label {
+  font-size: 2rem;
+  padding-right: 1.5rem;
+  color: var(--2);
+}
+
+.header .search-form label:hover {
+  color: var(--1);
+
+}
+
+/* hero styles */
+
+.hero {
+  background-image:linear-gradient(rgba(13, 3, 43, 0.596), rgba(136, 153, 76, 0.7)), url(/css/gabriel-gurrola-fcgPRZmTM5w-unsplash.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 110px;
+  padding: 100px;  
+  z-index: -1; 
+}
+
+.hero h1 {
+  color: var(--2);
+  font-size: clamp(24px, 10vh, 50px);
+}
+
+.hero h1 span {
+  color: var(--1);
+}
+
+.hero p {
+  font-size: 20px;
+  color: var(--3);
+}
+
+.hero .btn {
+border-color: var(--3);
+border: solid 3px;
+font-weight: bold;
+}
+
+.hero .btn:hover {
+  background-color: var(--1);
+}
