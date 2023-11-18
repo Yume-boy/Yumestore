@@ -170,7 +170,7 @@ body {
 /* hero styles */
 
 .hero {
-    background-image:linear-gradient(rgba(13, 3, 43, 0.596), rgba(136, 153, 76, 0.7)), url(../css/gabriel-gurrola-fcgPRZmTM5w-unsplash.jpg);
+    background-image:linear-gradient(rgba(13, 3, 43, 0.596), rgba(136, 153, 76, 0.7)), url(css/gabriel-gurrola-fcgPRZmTM5w-unsplash.jpg);
    background-size: cover;
    text-align: center;
     padding: 100px;  
